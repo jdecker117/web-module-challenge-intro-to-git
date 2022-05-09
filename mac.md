@@ -2,11 +2,11 @@
 
 Now that you are all set up, it's time to learn a little more about the tools of the trade. Edit this file and answer the following questions. You are going to need to start familiarizing yourself with the [GitHub docs](https://docs.github.com/en). Docs (short for documentation) are the instructions on how to use a languge or program. A large part of your job as a developer will be learning how to read and work with documentation. Please reference the GitHub docs when answering the questions below. If you cannot find what you are looking for in the docs, you can always start to practice your Google skills!
 
-1. What is Git?
-2. What is the difference between Git and GitHub?
-3. Why do we create a branch? 
-4. What is the purpose of a Pull Request?
-5. What is the command you can use to switch between branches? For example you are working on FIRSTNAME-LASTNAME branch and you want to switch back to main.
-6. Explain the difference between `git fetch`, `git merge` and `git pull`. What does each command do?
-7. What is a merge conflict?
-8. How do you resolve a merge conflict?
+1. What is Git? Git is an open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
+2. What is the difference between Git and GitHub? Git is a version control system that is installed and maintained on a local system, and provides a self-contained record of ongoing programming versions. GitHub is an online database that allows users to keep track of and share their Git version control projects outside of their local computer/server.
+3. Why do we create a branch? By creating a branch, users create a space to work without affecting the default (or main) branch.
+4. What is the purpose of a Pull Request? Pull Requests allow users to ask collaborators for feedback on their changes. Some repositories require an approving review before pull requests can be merged to the main branch.
+5. What is the command you can use to switch between branches? For example you are working on FIRSTNAME-LASTNAME branch and you want to switch back to main. git switch main
+6. Explain the difference between `git fetch`, `git merge` and `git pull`. What does each command do? 'git fetch' just "downloads" the changes from the remote to your local repository. 'git merge' is used to incorporate changes made from the the named commits (since the time their histories diverged from the current branch) into the current branch. 'git pull' is used to incorporate changes from a remote repository into the current branch. 'git pull' runs 'git fetch' with the given parameters and then will call 'git merge' to reconcile diverging branches.
+7. What is a merge conflict? An event that takes place when Git is unable to automatically resolve differences in code between two commits.
+8. How do you resolve a merge conflict? Identify where the conflicts are taking place in a working directory's stage area or local branch, then  update, add, and commit the conflicted file(s) to match the file(s) being merged.
